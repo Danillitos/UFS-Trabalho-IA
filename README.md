@@ -28,6 +28,7 @@ Construir um modelo de **regressão** capaz de estimar o valor de mercado de um 
 |---|---|
 | `projeto_final_fipe.ipynb` | Notebook completo: identificação do problema, compreensão dos dados, análise exploratória, pré-processamento, separação dos dados, modelagem, avaliação e discussão |
 | `README.md` | Este arquivo |
+| `requirements.txt` | Dependências para execução local (o Colab não precisa) |
 | `.gitignore` | Exclui ambiente virtual e caches do versionamento |
 
 ## Como executar no Google Colab
@@ -36,6 +37,16 @@ Construir um modelo de **regressão** capaz de estimar o valor de mercado de um 
 2. Execute as células em ordem (`Ambiente de execução → Executar tudo`). O download do dataset é automático.
 
 ⏱️ **Atenção:** as células de modelagem (seções 7 e 8) treinam Random Forest com validação cruzada sobre 373 mil registros. Em uma máquina com muitos núcleos levam ~15 minutos; no Colab gratuito (2 vCPUs) podem levar bem mais — é o comportamento esperado, não um travamento.
+
+### Execução local (opcional)
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Depois, abra o notebook no VS Code/Jupyter e **selecione o kernel do `.venv`** antes de executar.
 
 ## Modelos utilizados
 
