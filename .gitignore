@@ -2,3 +2,6 @@
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
+
+# material interno do grupo (não faz parte da entrega)
+roteiro_video.md

@@ -72,23 +72,6 @@ Comparação por validação cruzada (3 folds, no treino) e avaliação final no
 
 No teste de robustez temporal (treinar até 2020 e prever 2021–22), o desempenho degrada para MAE R$ 54.970 com viés de −20,4%: o modelo interpola muito bem dentro do período coberto, mas não antecipa o choque de preços da pandemia — florestas não extrapolam tendências. A discussão completa (erros, limitações e melhorias) está na seção 8 do notebook.
 
-## Divisão das contribuições
-
-<!-- Preencham conforme a divisão real do grupo — deve refletir quem apresenta cada parte no vídeo -->
-
-| Integrante | Contribuição |
-|---|---|
-| Danillo Matos Garcez | [preencher — ex.: seções X e Y do notebook e parte correspondente do vídeo] |
-| Luciano Davi Martins de Santana Silva | [preencher] |
-| Nicolas de Carvalho Lessa | [preencher] |
-
 ## Vídeo
 
-📹 **Link do vídeo:** [adicionar o link aqui antes da entrega]
-
-## Declaração de uso de ferramentas de IA
-
-- **Ferramenta utilizada:** Claude Code (Anthropic), com o modelo Claude Fable 5.
-- **Finalidade:** apoio ao desenvolvimento do projeto — geração do código e do texto do notebook, análise dos dados, comparação dos modelos e redação deste README, sempre em etapas dirigidas e revisadas pelo grupo.
-- **Partes do trabalho em que foi utilizada:** todas as seções do notebook (compreensão dos dados, análise exploratória, pré-processamento, separação, modelagem, avaliação e discussão) e a organização do repositório.
-- **Forma de verificação:** o notebook foi executado de ponta a ponta após cada etapa (todas as células rodam sem erros, com seeds fixas para reprodutibilidade); os números citados nos textos interpretativos foram conferidos contra as saídas das células; as decisões técnicas (tratamento do código zero km, alvo em log, escolha de atributos, protocolo de validação) foram discutidas, entendidas e validadas pelos integrantes, que respondem por elas na apresentação em vídeo.
+📹 **Link do vídeo:** [Vídeo](https://drive.google.com/file/d/1SbjSYsGPvcag_OzlWRDlLDN3Juji9dq4/view)
